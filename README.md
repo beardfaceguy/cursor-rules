@@ -15,6 +15,8 @@ cursor_rules/
 ├── migrate_to_v0_2.sh          # Automated migration script
 ├── FINETUNING_GUIDE.md         # Complete LLM fine-tuning guide
 ├── QUICK_START_FINETUNING.md   # Quick start for fine-tuning
+├── CURSOR_CUSTOM_MODEL_GUIDE.md # Integrate fine-tuned model into Cursor
+├── ALTERNATIVE_AI_IDES_GUIDE.md # Alternative IDEs with better custom model support
 ├── extract_training_data.py     # Extract training data from memory.md
 ├── evaluate_model.py           # Evaluate fine-tuned model performance
 ├── cursorRules_v_0_1/          # Version 0.1 of cursor rules
@@ -98,6 +100,16 @@ Transform your memory insights into a specialized AI assistant:
 - ✅ Automatically provides exact commands and solutions
 - ✅ Embodies your architectural knowledge and lessons learned
 - ✅ Deploy for team use or personal development workflow
+
+### For IDE Integration (Beyond Cursor)
+If you want full agent mode with custom models, consider these alternatives:
+
+1. **Continue.dev** - Best Cursor replacement with full custom model support
+2. **Zed Editor** - Most advanced agent framework with custom agent development
+3. **AWS Kiro** - Enterprise-grade with Model Context Protocol support
+4. **Cline** - Open source VS Code agent with autonomous coding
+
+See `ALTERNATIVE_AI_IDES_GUIDE.md` for detailed comparison and migration guides.
 
 ## Contributing
 
