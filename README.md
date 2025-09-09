@@ -11,6 +11,8 @@ This project contains structured guidelines and rules designed to ensure consist
 ```
 cursor_rules/
 ├── README.md                    # This file - project overview
+├── MIGRATION_GUIDE.md          # Step-by-step migration instructions
+├── migrate_to_v0_2.sh          # Automated migration script
 ├── cursorRules_v_0_1/          # Version 0.1 of cursor rules
 │   ├── README.md               # Detailed guidelines for v0.1
 │   └── cursor-system.zip       # Compressed cursor system files
@@ -60,10 +62,24 @@ cursor_rules/
 
 ## Getting Started
 
+### For New Projects
 1. Review the README in `cursorRules_v_0_2/` for the latest guidelines
 2. Understand the `.cursor/` directory structure
 3. Adapt the rules to your specific project requirements
 4. Implement the memory tracking and documentation systems
+
+### For Existing Projects (Migration from v0.1)
+If you have a Cursor Agent already running on v0.1 and don't want to start over:
+
+1. **Use the Migration Guide**: See `MIGRATION_GUIDE.md` for step-by-step instructions
+2. **Run the Migration Script**: Use `./migrate_to_v0_2.sh` to copy files automatically
+3. **Tell Your Agent**: Send the migration message to your existing agent to reload with new rules
+
+**Key Migration Benefits**:
+- ✅ Preserve all your current context and progress
+- ✅ Keep hard-earned insights and architectural patterns
+- ✅ Upgrade to more maintainable knowledge system
+- ✅ Continue working without interruption
 
 ## Contributing
 
