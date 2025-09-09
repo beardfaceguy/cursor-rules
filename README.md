@@ -13,6 +13,10 @@ cursor_rules/
 ├── README.md                    # This file - project overview
 ├── MIGRATION_GUIDE.md          # Step-by-step migration instructions
 ├── migrate_to_v0_2.sh          # Automated migration script
+├── FINETUNING_GUIDE.md         # Complete LLM fine-tuning guide
+├── QUICK_START_FINETUNING.md   # Quick start for fine-tuning
+├── extract_training_data.py     # Extract training data from memory.md
+├── evaluate_model.py           # Evaluate fine-tuned model performance
 ├── cursorRules_v_0_1/          # Version 0.1 of cursor rules
 │   ├── README.md               # Detailed guidelines for v0.1
 │   └── cursor-system.zip       # Compressed cursor system files
@@ -80,6 +84,20 @@ If you have a Cursor Agent already running on v0.1 and don't want to start over:
 - ✅ Keep hard-earned insights and architectural patterns
 - ✅ Upgrade to more maintainable knowledge system
 - ✅ Continue working without interruption
+
+### For Advanced Users (Fine-Tuning LLMs)
+Transform your memory insights into a specialized AI assistant:
+
+1. **Extract Training Data**: Use `extract_training_data.py` to convert memory insights into training examples
+2. **Fine-Tune Model**: Follow `FINETUNING_GUIDE.md` for complete implementation
+3. **Quick Start**: Use `QUICK_START_FINETUNING.md` for rapid setup
+4. **Evaluate Performance**: Use `evaluate_model.py` to test your fine-tuned model
+
+**Fine-Tuning Benefits**:
+- ✅ Create AI assistant that knows your codebase patterns
+- ✅ Automatically provides exact commands and solutions
+- ✅ Embodies your architectural knowledge and lessons learned
+- ✅ Deploy for team use or personal development workflow
 
 ## Contributing
 
